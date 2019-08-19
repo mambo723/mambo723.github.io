@@ -97,6 +97,6 @@ Cocos Creator 3D 公测动态：https://www.cocos.com/4830#4830
 
 
 <html>
-<p align="right">By 2D客户端：陶家恒 江南</p>
+<p align="right">By 2D客户端：TaoJiaheng JiangNan</p>
 <p align="right">2019年7月16日</p>
 </html>
