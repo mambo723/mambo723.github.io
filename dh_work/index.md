@@ -2,7 +2,7 @@
 ---
 
 ### 指导规范
-- [新人入职](https://mambo723.github.io/dh_work/newplayer)
+- [新人入职](https://mambo723.github.io/dh_work/newplayer.md)
 - [客户端人员分工参考](深圳客户端人员分工参考)
 - [工程简介](工程简介)
 - [热更新编码规范](热更新编码规范)
