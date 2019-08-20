@@ -1,4 +1,4 @@
-# CocosCreator 常见问题整理
+# CocosCreator 常见问题
 
 ## CocosCreator开发相关问题
 ### 业务相关

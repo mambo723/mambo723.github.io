@@ -8,7 +8,8 @@
 *  [DH](dh_work)
 
 ### 精华
-*  [CocosCreator 常见问题](Cocos/CocosCreator 常见问题)
+
+*  [CocosCreator 常见问题](Cocos/CocosCreator常见问题)
 *  [Cocos引擎底层常见问题](Cocos/Cocos引擎底层常见问题)
 *  [捕鱼项目结构、自动化工具及相关规范](dh_work/捕鱼项目结构、自动化工具及相关规范)
 *  [捕鱼优化及典型Bug修复日志](dh_work/捕鱼优化及典型Bug修复日志)
