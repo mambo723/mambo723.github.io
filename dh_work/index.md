@@ -39,9 +39,10 @@
 ### 技术分享
 
 
-* [Markdown教程](https://www.cnblogs.com/liugang-vip/p/6337580.html)
-* [source-map技术支持资料](https://www.jianshu.com/p/fc622f8cff99)
-
+* [Markdown 教程](https://www.cnblogs.com/liugang-vip/p/6337580.html)
+* [source-map 技术支持资料](https://www.jianshu.com/p/fc622f8cff99)
+* [SVN 常用命令详解](https://blog.csdn.net/GX_1_11_real/article/details/86489756)
+* [Git 常用命令详解](https://blog.csdn.net/weelyy/article/details/82823798)
 
 ---
 

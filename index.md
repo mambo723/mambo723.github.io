@@ -6,7 +6,6 @@
 *  [Cocos2dx、CocosCreator](Cocos)
 
 
-
 ### 工作日志
 *  [DH](dh_work)
 
@@ -21,7 +20,15 @@
 *  [关于“使用 CocosCreator 制作3D游戏”的可行性报告](dh_work/关于CocosCreator开发3D游戏的可行性报告)
 
 
-### 技术分享
-* [Markdown教程](https://www.cnblogs.com/liugang-vip/p/6337580.html)
-* [source-map](https://www.jianshu.com/p/fc622f8cff99)
+### 技术资源
 * [Welcome to GitHub Pages](GitPageExample)
+* [Markdown 教程](https://www.cnblogs.com/liugang-vip/p/6337580.html)
+* [source-map](https://www.jianshu.com/p/fc622f8cff99)
+* [SVN 常用命令详解](https://blog.csdn.net/GX_1_11_real/article/details/86489756)
+* [Git 常用命令详解](https://blog.csdn.net/weelyy/article/details/82823798)
+
+
+### 相关网站
+* [Cocos官网](https://www.cocos.com)
+* [开源中国](https://www.oschina.net)
+* [游资网](https://www.gameres.com)
