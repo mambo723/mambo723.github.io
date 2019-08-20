@@ -1,5 +1,6 @@
 # DH 工作日志
 
+![logo](http://www.dh.cn/imgs/DH.png)
 
 > 奇文共欣赏，疑义相与析。
 
