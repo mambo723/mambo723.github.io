@@ -1,3 +1,4 @@
+![TPLogo](https://img1.doubanio.com/lpic/s27302797.jpg)
 # TexturePacker常用命令参考
 * 一般使用以下标准格式命令行：
   * `TexturePacker [options][<imagefolder>][<images>][<tpsfiles>]`
@@ -49,7 +50,7 @@
 * `--shape-debug` 显示测试边框
 
 
-### 选择sprite sheets的两个原因：
+### 选择 sprite sheets 的两个原因：
 1. 减少内存和启动时间。
 2. 提高游戏新能。
 
