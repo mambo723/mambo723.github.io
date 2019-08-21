@@ -1,6 +1,6 @@
 ## psd2node安装使用方法
 ---
-* 插件包在 svn://192.168.1.242/H5_client/branches/game_dev/devTool/psd2node
+* [插件路径](svn://192.168.1.242/H5_client/branches/game_dev/devTool/psd2node)
 * 将插件整包放到C:\Users\Administrator\\.CocosCreator\packages\全局目录下面
 * 重启编辑器，菜单栏可以看到packages，点击进入子菜单psd2node，打开面板。
 * 首先需要输入正确的psd文件路径，目录中含/和\都可以。
