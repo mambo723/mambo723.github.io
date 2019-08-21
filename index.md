@@ -6,14 +6,6 @@
 *  [Cocos2dx、CocosCreator](Cocos)
 
 
-### 工作日志
-
->  工作日志为工作期间在公司项目框架下编写的一些文档，并非全是抽象化的技术总结
-* [DH](dh_work)
-
-
-
-
 ### 精华
 *  [CocosCreator 常见问题](Cocos/CocosCreator常见问题)
 *  [Cocos引擎底层常见问题](Cocos/Cocos引擎底层常见问题)
