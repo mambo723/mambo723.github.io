@@ -9,7 +9,7 @@
 ### 工作日志
 
 >  工作日志为工作期间在公司项目框架下编写的一些文档，并非全是抽象化的技术总结
-
+* [DH](dh_work)
 
 
 
@@ -33,5 +33,7 @@
 
 ### 相关网站
 * [Cocos官网](https://www.cocos.com)
+* [CocosCreator版本发布计划](https://trello.com/b/JWVRRxMG)
 * [开源中国](https://www.oschina.net)
 * [游资网](https://www.gameres.com)
+* [996.icu](https://996.icu)
