@@ -9,4 +9,4 @@ catalog: true                                   # 是否归档
 tags:                                           # 标签
     - 工作日志和技术积累
 ---
-# [我的GiteeBook](https://mambotjh.gitee.io/giteebook)
+[我的GiteeBook](https://mambotjh.gitee.io/giteebook)
