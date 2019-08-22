@@ -1,11 +1,2 @@
+title: Mambo723 Blog
 theme: jekyll-theme-slate
-
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 90d619dd06c206c80f71                            #生成的clientID
-  clientSecret: 1071184e9183c7904e4e9b10c03567d1aacae817    #生成的clientSecret
-  repo: mambo723.github.io    #仓库名称
-  owner: mambo723    #github用户名
-  admin: mambo723
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
