@@ -9,10 +9,8 @@ catalog: true                                   # 是否归档
 tags:                                           # 标签
     - 工作日志和技术积累
 ---
-
 ### 技术积累
-*  [Cocos2dx、CocosCreator](Cocos)
-
+*  [Cocos2dx、CocosCreator](Cocos/index.md)
 
 ### 精华
 *  [CocosCreator 常见问题](Cocos/CocosCreator常见问题)
@@ -22,14 +20,12 @@ tags:                                           # 标签
 *  [捕鱼优化及典型Bug修复日志](dh_work/捕鱼优化及典型Bug修复日志)
 *  [关于“使用 CocosCreator 制作3D游戏”的可行性报告](dh_work/关于CocosCreator开发3D游戏的可行性报告)
 
-
 ### 技术资源
 * [Welcome to GitHub Pages](GitPageExample)
 * [Markdown 教程](https://www.cnblogs.com/liugang-vip/p/6337580.html)
 * [source-map](https://www.jianshu.com/p/fc622f8cff99)
 * [SVN 常用命令详解](https://blog.csdn.net/GX_1_11_real/article/details/86489756)
 * [Git 常用命令详解](https://blog.csdn.net/weelyy/article/details/82823798)
-
 
 ### 相关网站
 * [Cocos官网](https://www.cocos.com)
