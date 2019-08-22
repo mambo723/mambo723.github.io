@@ -31,12 +31,12 @@
 * [996.icu](https://996.icu)
 
 <!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
+<!-- {% if site.gitalk.enable %} -->
 <!-- Gitalk link  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
     var gitalk = new Gitalk(
         {
             clientID: '{{site.gitalk.clientID}}',
@@ -54,4 +54,4 @@
     );
     gitalk.render('gitalk-container');
 </script>
-{% endif %}
+<!-- {% endif %} -->
