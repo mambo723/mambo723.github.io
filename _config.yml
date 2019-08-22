@@ -1,2 +1,9 @@
 title: Mambo723 Blog
+SEOTitle: Mambo723的博客 | Mambo723 Blog
+email: mambo723@163.com
+description: "拔剑舞中庭，浩歌振林峦；丈夫意如此，不学腐儒酸。"
+keyword: "Mambo723, Mambo723 Blog, Mambo723的博客, Cocos, CocosCreator, 游戏开发"
+url: "https://mambo723.github.io"
+github_repo: "https://github.com/mambo723/mambo723.github.io.git"
+
 theme: jekyll-theme-slate

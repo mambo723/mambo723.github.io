@@ -30,8 +30,7 @@
 * [游资网](https://www.gameres.com)
 * [996.icu](https://996.icu)
 
-<!-- [AboutMe](about.html) -->
-
+### 留言
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
@@ -43,7 +42,7 @@
         owner: 'mambo723',
         admin: ['mambo723'],
         distractionFreeMode: true,
-        id: 'about',
+        id: 'LeaveWords',
     });
     gitalk.render('gitalk-container');
 </script>
