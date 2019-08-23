@@ -2,8 +2,7 @@
 layout:     default                        # 使用的布局
 ---
 
-# Hello World
-## Welcome to My GitHub Pages
+## Welcome to My Blog
 
 
 ### 技术积累
