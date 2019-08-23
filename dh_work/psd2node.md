@@ -1,3 +1,11 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      工作日志                     # 标题(必填)
+subtitle:   psd2node安装使用方法            # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     Mambo723                    # 作者(必填)
+gitalk_enable: false                     # 是否开启评论(必填)
+---
 ## psd2node安装使用方法
 ---
 * [插件路径](svn://192.168.1.242/H5_client/branches/game_dev/devTool/psd2node)

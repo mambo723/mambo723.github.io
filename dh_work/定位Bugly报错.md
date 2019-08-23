@@ -1,3 +1,11 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      工作日志                     # 标题(必填)
+subtitle:   定位 Bugly 报错            # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     Mambo723                    # 作者(必填)
+gitalk_enable: false                     # 是否开启评论(必填)
+---
 # 定位 Bugly 报错
 ## 技术背景
 热更新方案约定，大厅、子游戏模块为“独立”工程，对模块生成热更新包时会对对“独立”工程做资源、场景合并，公共模块将必要的数据保存到全局变量，以方便其他模块使用。由于大厅、子游戏是独立模块，那么creator构建之后所有的 js、ts 代码都合并到对影子游戏的 preject.js 文件里，引擎代码合并到 cocos2d-jsb.js 中，所以在 bugly 上面看到出错的堆栈中常见 cocos2d-jsb.js、project.js 某一行出错。
