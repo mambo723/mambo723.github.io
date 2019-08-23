@@ -23,10 +23,7 @@
             <h2 id="project_tagline">
                 {{ page.subtitle | site.description | default: site.github.project_tagline }}
             </h2>
-            <p id="project_tagline" font-size:18px>
-                Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
-            </p>
-
+            
             {% if site.show_downloads %}
             <section id="downloads">
                 <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
@@ -34,6 +31,9 @@
             </section>
             {% endif %}
         </header>
+        <h3>
+            Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
+        </h3>
     </div>
 
     <!-- MAIN CONTENT -->
