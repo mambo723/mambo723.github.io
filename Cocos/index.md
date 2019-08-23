@@ -1,7 +1,7 @@
 ---
-layout:     default                        # 使用的布局
-title:      My First Blog                  # 标题
-subtitle:   纸上得来终觉浅，绝知此事要躬行   # 副标题
+layout:     post                        # 使用的布局
+title:      技术积累                  # 标题
+subtitle:   Cocos2dx、CocosCreator   # 副标题
 date:       2019-08-23                          # 时间
 author:     Mambo723                            # 作者
 ---
