@@ -1,14 +1,14 @@
 ---
 layout:     post                        # 使用的布局(必填)
-title:      工作日志                     # 标题(必填)
-subtitle:   优化日志            # 副标题(必填)
+title:      捕鱼优化及典型Bug修复日志                     # 标题(必填)
+subtitle:   工作日志            # 副标题(必填)
 date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
 gitalk_enable: false                     # 是否开启评论(必填)
 ---
 > 赠人玫瑰，手有余香。
-
-# 优化日志
+# 捕鱼优化及典型Bug修复日志
+## 优化日志
 
 
 > 记录相关优化
@@ -28,7 +28,7 @@ gitalk_enable: false                     # 是否开启评论(必填)
 
 7.  关于触摸气泡效果的实现：效果本身使用 CocosCreator 的 Animation 组件和粒子动画实现，这方面比较简单，真正有趣点在于 CocosCreator 的事件系统。CocosCreator 的触摸事件传递使用的是[节点树冒泡传递](https://docs.cocos.com/creator/manual/zh/scripting/internal-events.html#%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6%E5%86%92%E6%B3%A1)，也就是由子节点一层一层向父节点传递。如果对事件调用 `event.stopPropagation()` 则会阻断冒泡过程，比如引擎中[cc.Button](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/components/CCButton.js#L650)、[cc.ScrollView](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/components/CCScrollView.js#L950)、[cc.BlockInputEvents ](https://github.com/cocos-creator/engine/blob/8bf4522a6d43b53258219983aabd728909ce24ca/cocos2d/core/components/CCBlockInputEvents.js#L32)等一些组件中就会有这个操作，这就导致在根节点监听触摸事件的时候，如果触摸事件是由这些组件触发，触摸事件将不会冒泡传递到根节点，这就造成了点击挂载有这些组件的节点时不能触发效果。解决这个问题需要手动将触摸事件分发给根节点，具体做法是在挂载有这些组件的节点上监听触摸事件，将接收到的触摸事件原样分发给目标节点。这里需要注意的是，事件分发有两种方式，分别是 [emit](https://docs.cocos.com/creator/manual/zh/scripting/events.html#%E5%8F%91%E5%B0%84%E4%BA%8B%E4%BB%B6) 和 [dispatchEvent](https://docs.cocos.com/creator/manual/zh/scripting/events.html#%E6%B4%BE%E9%80%81%E4%BA%8B%E4%BB%B6)，使用 dispatchEvent 分发会影响事件的冒泡过程，导致事件的 target 属性发生变化，target 会变成 dispatchEvent 的目标节点，如果在正常的冒泡过程中使用了 target 属性就会产生问题，所以此时不能使用 dispatchEvent，应该使用 emit 进行分发。
 
-#  典型Bug修复日志
+##  典型Bug修复日志
 
 > 记录典型Bug修复的过程
 

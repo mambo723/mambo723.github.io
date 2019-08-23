@@ -1,7 +1,7 @@
 ---
 layout:     post                        # 使用的布局(必填)
-title:      CocosCreator 游戏开发                     # 标题(必填)
-subtitle:   Cocos引擎底层常见问题      # 副标题(必填)
+title:      Cocos引擎底层常见问题                     # 标题(必填)
+subtitle:   CocosCreator 游戏开发      # 副标题(必填)
 date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
 gitalk_enable: true                     # 是否开启评论(必填)

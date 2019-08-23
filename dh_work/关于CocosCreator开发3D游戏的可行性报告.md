@@ -1,7 +1,7 @@
 ---
 layout:     post                        # 使用的布局(必填)
-title:      工作日志                     # 标题(必填)
-subtitle:   关于使用CocosCreator开发3D游戏的可行性报告            # 副标题(必填)
+title:      关于使用CocosCreator开发3D游戏的可行性报告                     # 标题(必填)
+subtitle:   工作日志            # 副标题(必填)
 date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
 gitalk_enable: false                     # 是否开启评论(必填)
