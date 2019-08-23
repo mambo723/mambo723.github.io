@@ -4,7 +4,6 @@ title:      My First Blog                  # 标题
 subtitle:   纸上得来终觉浅，绝知此事要躬行   # 副标题
 date:       2019-08-23                          # 时间
 author:     Mambo723                            # 作者
-header-img: img/post-bg-ios9-web.jpg            # 标题上的背景图片
 ---
 
 ![CocosLogo](https://www.cocos.com/wp-content/themes/cocos/image/logo.png)
