@@ -50,7 +50,7 @@
                     owner: '{{site.gitalk.owner}}',
                     admin: ['{{site.gitalk.admin}}'],
                     distractionFreeMode: true,
-                    id: "{{page.title}}",
+                    id: "{{page.author}}_{{page.date}}_{{page.title}}_{{page.subtitle}}",
                 });
                 gitalk.render('gitalk-container');
             </script>
