@@ -1,7 +1,7 @@
 ---
 layout:     post                        # 使用的布局(必填)
 title:      技术积累                     # 标题(必填)
-subtitle:   Cocos2dx、CocosCreator      # 副标题(必填)
+subtitle:   Cocos2dx, CocosCreator      # 副标题(必填)
 date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
 ---
