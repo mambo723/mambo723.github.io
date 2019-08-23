@@ -29,3 +29,21 @@
 * [开源中国](https://www.oschina.net)
 * [游资网](https://www.gameres.com)
 * [996.icu](https://996.icu)
+
+
+### 留言
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '90d619dd06c206c80f71',
+        clientSecret: '1071184e9183c7904e4e9b10c03567d1aacae817',
+        repo: 'mambo723.github.io',
+        owner: 'mambo723',
+        admin: ['mambo723'],
+        distractionFreeMode: true,
+        id: 'LeaveWords',
+    });
+    gitalk.render('gitalk-container');
+</script>
