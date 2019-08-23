@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% seo %}
+</head>
+
+<body>
+    <!-- HEADER -->
+    <style type="text/css">
+        header.intro-header {
+            position: relative;
+            background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        }
+    </style>
+
+    <header class="intro-header">
+        <div class="header-mask"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>{{ page.title }}</h1>
+                        {% comment %}
+                        always create a h2 for keeping the margin , Hux
+                        {% endcomment %}
+                        {% comment %} if page.subtitle {% endcomment %}
+                        <h2 class="subheading">{{ page.subtitle }}</h2>
+                        {% comment %} endif {% endcomment %}
+                        <span class="meta">Posted by
+                            {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on
+                            {{ page.date | date: "%B %-d, %Y" }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            {{ content }}
+        </section>
+    </div>
+
+    {% if site.gitalk.enable %}
+    <!-- 引入Gitalk评论插件  -->
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+            clientID: '{{site.gitalk.clientID}}',
+            clientSecret: '{{site.gitalk.clientSecret}}',
+            repo: '{{site.gitalk.repo}}',
+            owner: '{{site.gitalk.owner}}',
+            admin: ['{{site.gitalk.admin}}'],
+            distractionFreeMode: {{ site.gitalk.distractionFreeMode }},
+        id: location.pathname,
+        });
+        gitalk.render('gitalk-container');
+    </script>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            {% if site.github.is_project_page %}
+            <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a
+                    href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        </footer>
+    </div>
+
+    {% if site.google_analytics %}
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
+    {% endif %}
+</body>
+
+</html>

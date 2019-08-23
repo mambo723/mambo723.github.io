@@ -1,9 +1,27 @@
-theme: jekyll-theme-slate
-
+lang: zh-CN
 title: Mambo723 Blog
-SEOTitle: Mambo723的博客 | Mambo723 Blog
-email: mambo723@163.com
 description: "拔剑舞中庭，浩歌振林峦；丈夫意如此，不学腐儒酸。"
-keyword: "Mambo723, Mambo723 Blog, Mambo723的博客, Cocos, CocosCreator, 游戏开发"
-url: "https://mambo723.github.io"
-github_repo: "https://github.com/mambo723/mambo723.github.io.git"
+show_downloads: false
+google_analytics: false
+
+github:
+  is_project_page: false
+  repository_url: ""
+  repository_name: ""
+  project_tagline: ""
+  zip_url: ""
+  tar_url: ""
+  owner_url: ""
+  build_revision: ""
+
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 90d619dd06c206c80f71                            #生成的clientID
+  clientSecret: 1071184e9183c7904e4e9b10c03567d1aacae817    #生成的clientSecret
+  repo: mambo723.github.io    #仓库名称
+  owner: mambo723    #github用户名
+  admin: mambo723
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+theme: jekyll-theme-slate
