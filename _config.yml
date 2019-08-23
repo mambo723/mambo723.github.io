@@ -21,7 +21,5 @@ gitalk:
   repo: mambo723.github.io    #仓库名称
   owner: mambo723    #github用户名
   admin: mambo723
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
 
 theme: jekyll-theme-slate

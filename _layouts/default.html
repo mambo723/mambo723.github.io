@@ -50,8 +50,8 @@
             repo: '{{site.gitalk.repo}}',
             owner: '{{site.gitalk.owner}}',
             admin: ['{{site.gitalk.admin}}'],
-            distractionFreeMode: {{ site.gitalk.distractionFreeMode }},
-        id: location.pathname,
+            distractionFreeMode: true,
+            id: location.pathname,
         });
         gitalk.render('gitalk-container');
     </script>
