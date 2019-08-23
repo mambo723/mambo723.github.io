@@ -220,18 +220,18 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 ### 4. 在脚本开发中如何实现同步
 * 使用 promise
 ```
-    public async loadRes(url:string) {
-        return new Promise<typeof cc.Asset>((resolve, reject) => {
-            cc.loader.loadRes(url, (err, asset) => {
-                if (err) {
-                    cc.error(err.message || err)
-                    reject(err.message || err)
-                } else {
-                    resolve(asset)
-                }
-            })
+public async loadRes(url:string) {
+    return new Promise<typeof cc.Asset>((resolve, reject) => {
+        cc.loader.loadRes(url, (err, asset) => {
+            if (err) {
+                cc.error(err.message || err)
+                reject(err.message || err)
+            } else {
+                resolve(asset)
+            }
         })
-    }
+    })
+}
 ```
 
 ---
