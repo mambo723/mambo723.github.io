@@ -1,3 +1,10 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      CocosCreator 游戏开发                     # 标题(必填)
+subtitle:   Cocos引擎底层常见问题      # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     Mambo723                    # 作者(必填)
+---
 ## Cocos引擎底层常见问题
 ### C++
 #### 1. 指针与引用的区别

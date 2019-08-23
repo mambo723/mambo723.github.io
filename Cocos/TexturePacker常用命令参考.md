@@ -1,3 +1,10 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      CocosCreator 游戏开发                     # 标题(必填)
+subtitle:   TexturePacker常用命令参考      # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     Mambo723                    # 作者(必填)
+---
 # TexturePacker常用命令参考
 * 一般使用以下标准格式命令行：
   * `TexturePacker [options][<imagefolder>][<images>][<tpsfiles>]`

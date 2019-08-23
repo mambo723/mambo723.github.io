@@ -1,3 +1,10 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      CocosCreator 游戏开发                     # 标题(必填)
+subtitle:   CocosCreator 常见问题      # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     Mambo723                    # 作者(必填)
+---
 # CocosCreator 常见问题
 ## 业务相关
 ### 1. CocosCreator和cocos2d-x的区别
