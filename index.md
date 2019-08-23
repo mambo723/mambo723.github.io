@@ -5,7 +5,7 @@ layout:     default                        # 使用的布局
 ## Welcome to My Blog
 
 ### 博文
-*  [我的个人博客诞生日记](posts/个人博客诞生日记)
+*  [我的个人博客诞生日记](posts/我的个人博客诞生日记)
 
 ### 技术积累
 *  [Cocos2dx、CocosCreator](Cocos)
