@@ -17,12 +17,12 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 2. CocosCreator如何实现多平台发布的
+### 2. CocosCreator 如何实现多平台发布的
 * 原生平台使用 cocos2d-x-lite + jsb ，h5平台使用js engine运行于浏览器环境
 
 ---
 
-### 3. Creator中需要动态载入的资源，放在工程的哪个子目录中 
+### 3. Creator 中需要动态载入的资源，放在工程的哪个子目录中 
 * resources
 
 ---
@@ -50,7 +50,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 7. Creator对齐UI使用什么组件
+### 7. Creator 对齐 UI 使用什么组件
 * widget 组件
 
 ---
@@ -80,7 +80,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 11. spine动画能否合并draw call
+### 11. spine动画能否合并 draw call
 * 不能
 
 ---
@@ -90,7 +90,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 13. 如何优化ScrollView
+### 13. 如何优化 ScrollView
 * 隐藏显示区域外的节点，active 为 false 的节点不占用 draw call
 * 复用列表项，根据 content 移动的位置动态的更新内容
 * 使用对象池管理列表项
@@ -114,7 +114,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 15. 一般而言造成FPS低的直接原因是什么，如何优化FPS
+### 15. 一般而言造成FPS低的直接原因是什么，如何优化 FPS
 * 原因是主循环中游戏逻辑占用太多时间
   * 比如大量频繁的创建和销毁节点
   * 大量频繁的加载和释放资源
@@ -133,7 +133,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 
 ---
 
-### 18. a节点和b节点非父子关系，如何获取a相对b节点的坐标
+### 18. a 节点和 b 节点非父子关系，如何获取 a 相对 b 节点的坐标
 
 ```
 b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
@@ -160,7 +160,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ---
 
-### 21. Creator中销毁节点要使用什么方法， removeFromParent 和 destroy 有什么区别，调用 destroy 时会立即销毁节点回收组件吗
+### 21. Creator 中销毁节点要使用什么方法， removeFromParent 和 destroy 有什么区别，调用 destroy 时会立即销毁节点回收组件吗
 * 使用destroy
 * removeFromParent方法执行的操作是从从父节点上移除这个节点，执行完后会立即从父节点上移除，最终会销毁节点，但并不会触发onDestroy回调，执行removeFromParent操作之后可以再为节点指定一个新的父节点
 * destroy调用后不会立即从父节点上移除，而是在当前帧结束的时候移除并销毁节点，并会触发onDestroy回调，操作之后不能再为节点指定一个新的父节点。
@@ -169,7 +169,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ---
 
-### 22. Creator中 get set 方法有什么作用
+### 22. Creator 中 get set 方法有什么作用
 * 使用 . 操作符可以调用 get 方法
 * 使用 = 操作符可以调用 set 方法
 * 一般用在关联数据与UI或者关联数据与数据这方面
@@ -185,7 +185,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ---
 
-### 25. 一张1024x1024,32位的贴图，在内存里面占多少字节？
+### 25. 一张 1024x1024,32 位的贴图，在内存里面占多少字节？
 * 1024 * 1024 * 32 / 8 = 4M字节
 
 ---
@@ -197,7 +197,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ----------------------------------------
 
-## JS和TS问题
+## JS 和 TS 问题
 
 ### 1. js 对象引用传递会造成哪些问题，如何避免
 * 引用传递可能会导致对象在不知名的地方被改变
@@ -210,9 +210,9 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ---
 
-### 3. 函数中this指向什么
-* this指代函数的运行环境
-* 使用 . 操作符调用函数时，this指操作符的左值
+### 3. 函数中 this 指向什么
+* this 指代函数的运行环境
+* 使用 . 操作符调用函数时，this 指操作符的左值
 * call, apply, bind 都可以改变函数执行时的运行环境，即 this 的指向
 
 ---
@@ -236,7 +236,7 @@ public async loadRes(url:string) {
 
 ---
 
-### 5. ts与js有什么区别，为什么用ts不用js
+### 5. ts 与 js 有什么区别，为什么用 ts 不用 js
 * TS 是 JS 的一个超集
 * TS 的优势在于类型检查和代码提示
 * TS 在最终会被编译成 js
@@ -251,7 +251,7 @@ public async loadRes(url:string) {
 
 ---
 
-### 7. ES6为什么要引入let关键字
+### 7. ES6 为什么要引入 let 关键字
 * 因为要解决 var 声明对象产生的问题
 * var 是函数级作用域，而let是块作用域
 * var 存在变量提升，即变量可以在声明之前使用，值为undefined，而let声明的变量如果在声明之前使用会抛出一个错误
