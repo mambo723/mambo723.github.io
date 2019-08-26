@@ -1,3 +1,11 @@
+---
+layout:     post                        # 使用的布局(必填)
+title:      Welcome to GitHub Pages                     # 标题(必填)
+subtitle:   GitHub Pages Example      # 副标题(必填)
+date:       2019-08-23                  # 时间(必填)
+author:     GitHub                    # 作者(必填)
+gitalk_enable: true                     # 是否开启评论(必填)
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mambo723/mambo723.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
