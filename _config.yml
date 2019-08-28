@@ -3,6 +3,8 @@ title: Mambo723 Blog
 description: "拔剑舞中庭，浩歌振林峦；丈夫意如此，不学腐儒酸。"
 show_downloads: false
 google_analytics: false
+home: "https://mambo723.github.io/"
+email: "mambo723@163.com"
 
 github:
   is_project_page: false
