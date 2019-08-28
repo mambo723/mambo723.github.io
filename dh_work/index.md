@@ -49,6 +49,7 @@ gitalk_enable: false                     # 是否开启评论(必填)
 * [source-map 技术支持资料](https://www.jianshu.com/p/fc622f8cff99)
 * [SVN 常用命令详解](https://blog.csdn.net/GX_1_11_real/article/details/86489756)
 * [Git 常用命令详解](https://blog.csdn.net/weelyy/article/details/82823798)
+* [Live Share](https://devblogs.microsoft.com/visualstudio/visual-studio-live-share-for-real-time-code-reviews-and-interactive-education/)
 
 ---
 
