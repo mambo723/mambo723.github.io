@@ -26,16 +26,16 @@
             <h3 id="project_title">
                 {{ page.subtitle | site.description | default: site.github.project_tagline }}
             </h3>
-            <p>
+            <a>
                 <font color="White">
                     Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
                 </font>
-            </p>
-            <p>
+            </a>
+            <a>
                 <font color="White">
                     Email: {{ site.email }}
                 </font>
-            </p>
+            </a>
 
             {% if site.show_downloads %}
             <section id="downloads">
