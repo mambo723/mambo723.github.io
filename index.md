@@ -2,7 +2,7 @@
 layout:     default                        # 使用的布局
 ---
 
-## Welcome to My Blog
+## Welcome to My Page
 
 ### Posts
 *  [搭建个人博客](posts/搭建个人博客)

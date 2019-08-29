@@ -4,7 +4,7 @@ title:      技术扩展                     # 标题(必填)
 subtitle:   天外有天, 学无止境            # 副标题(必填)
 date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
-gitalk_enable: true                     # 是否开启评论(必填)
+gitalk_enable: false                     # 是否开启评论(必填)
 ---
 # 技术扩展
 ## 开源项目
