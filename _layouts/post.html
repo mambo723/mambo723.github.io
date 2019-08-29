@@ -21,10 +21,10 @@
     
             <h1 id="project_title"><a href="{{ site.home }}">{{ site.title | default: site.github.repository_name }}</a></h1>
             <h1 id="project_title">{{ page.title | site.title | default: site.github.repository_name }}</h1>
-            <h2 id="project_tagline" style="font-size:150%">
-                <!-- <font color="White" size="8"> -->
-                {{ page.subtitle | site.description | default: site.github.project_tagline }}
-                <!-- </font> -->
+            <h2 id="project_tagline">
+                <b>
+                    {{ page.subtitle | site.description | default: site.github.project_tagline }}
+                </b>
             </h2>
 
             <p>
