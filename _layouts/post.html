@@ -24,18 +24,20 @@
                 {{ page.title | site.title | default: site.github.repository_name }}
             </h2>
             <h2 id="project_tagline">
-                {{ page.subtitle | site.description | default: site.github.project_tagline }}
+                <font color="White" size="10">
+                    {{ page.subtitle | site.description | default: site.github.project_tagline }}
+                </font>
             </h2>
-            <a>
+            <p>
                 <font color="White">
                     Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
                 </font>
-            </a>
-            <a>
+            </p>
+            <p>
                 <font color="White">
                     Email: {{ site.email }}
                 </font>
-            </a>
+            </p>
 
             {% if site.show_downloads %}
             <section id="downloads">
