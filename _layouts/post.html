@@ -22,6 +22,8 @@
             <h1 id="project_title"><a href="{{ site.home }}">{{ site.title | default: site.github.repository_name }}</a></h1>
             <h1 id="project_title">{{ page.title | site.title | default: site.github.repository_name }}</h1>
             <h2 id="project_tagline">{{ page.subtitle | site.description | default: site.github.project_tagline }}</h2>
+            <br></br>
+            <br></br>
             <p>
                 <font color="White">
                     Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}
