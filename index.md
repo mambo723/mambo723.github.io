@@ -36,4 +36,4 @@ layout:     default                        # 使用的布局
 * [996.icu](https://996.icu)
 
 ### DEMO
-* [ShaderDemo](ShaderDemoByMambo723)
+* [ShaderDemo](demos/ShaderDemoByMambo723)
