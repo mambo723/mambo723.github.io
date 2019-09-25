@@ -6,7 +6,7 @@ date:       2019-08-23                  # 时间(必填)
 author:     Mambo723                    # 作者(必填)
 gitalk_enable: false                     # 是否开启评论(必填)
 ---
-![logo](http://www.dh.cn/imgs/DH.png)
+<!-- ![logo](http://www.dh.cn/imgs/DH.png) -->
 
 > 奇文共欣赏，疑义相与析。
 
