@@ -194,6 +194,18 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 * 在 put 和 get 方法调用的地方执行
 * 创建对象池时指定组件，在组件的 unuse 和 reuse 回调中执行
 
+### 27. Creator 中如何加载二进制文件
+```
+    let url = cc.url.raw('resources/games/ccfishing/FishPathFormated') + '.fpf';
+    cc.loader.load({ url: url, type: 'binary', }, (err, binary: Uint8Array) => {
+        if (err) {
+            console.error(CCFConst.LogTag, err.message || err);
+        } else {
+            // todo
+        }
+    });
+```
+
 
 ----------------------------------------
 
