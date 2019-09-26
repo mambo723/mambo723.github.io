@@ -198,7 +198,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 ```
 let url = cc.url.raw('FishPathFormated') + '.fpf';
 cc.loader.load(
-    { url: url, type: 'binary', },
+    { url: url, type: 'binary'},
     (err, binary: Uint8Array) => {
         if (err) {
             console.error(CCFConst.LogTag, err.message || err);
