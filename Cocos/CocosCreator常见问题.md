@@ -186,7 +186,7 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 ---
 
 ### 25. 一张 1024x1024,32 位的贴图，在内存里面占多少字节？
-* 1024 * 1024 * 32 / 8 = 4M字节
+* 1024 * 1024 * 32 / 8 = 4M 字节
 
 ---
 
