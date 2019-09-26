@@ -167,7 +167,7 @@ window.boot = function () {
         id: 'GameCanvas',
         scenes: settings.scenes,
         debugMode: settings.debug ? cc.debug.DebugMode.INFO : cc.debug.DebugMode.ERROR,
-        showFPS: !false && settings.debug,
+        showFPS: false && settings.debug,
         frameRate: 60,
         jsList: jsList,
         groupList: settings.groupList,
@@ -187,7 +187,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.6446f.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.8255c.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();
@@ -207,7 +207,7 @@ if (false) {
     qqPlayDownloader.REMOTE_SERVER_ROOT = "";
     var prevPipe = cc.loader.md5Pipe || cc.loader.assetLoader;
     cc.loader.insertPipeAfter(prevPipe, qqPlayDownloader);
-    
+
     window.boot();
 }
 else if (window.jsb) {
