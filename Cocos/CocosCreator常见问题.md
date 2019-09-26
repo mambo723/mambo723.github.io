@@ -11,7 +11,7 @@ gitalk_enable: true                     # 是否开启评论(必填)
 ### 1. CocosCreator 和 cocos2d-x 的区别
 * 实现不同，Creator 引擎是采用 cocos2d-x-lite + jsb 和 js engine 分别实现原生和h5平台
 * cocos2d-x-lite 是基于cocos2d-x 3.9 的简化版，2d-x基本属于代码驱动
-* Creator优化了相关工具链，提高了开发效率,
+* Creator优化了相关工具链，提高了开发效率
 * cocos creator是一套包含编辑器在内的开发框架，其内部引擎使用了cocos2d-x js的精简修改版本
 * cocos2d-x 资源使用了引用计数进行管理，Creator 因为 js 的自动垃圾回收无法使用引用计数
 
