@@ -196,12 +196,12 @@ b.convertToNodeSpaceAR(a.convertToWorldSpaceAR(cc.Vec2.ZERO))
 
 ### 27. Creator 中如何加载二进制文件
 ```
-let url = cc.url.raw('FishPathFormated') + '.fpf';
+let url = cc.url.raw('resources/FishPathFormated') + '.fpf';
 cc.loader.load(
     { url: url, type: 'binary'},
     (err, binary: Uint8Array) => {
         if (err) {
-            console.error(CCFConst.LogTag, err.message || err);
+            console.error(err.message || err);
         } else {
             // todo
         }
