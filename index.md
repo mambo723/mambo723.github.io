@@ -37,3 +37,6 @@ layout:     default                        # 使用的布局
 
 ### DEMO
 * [ShaderDemo](demos/ShaderDemoByMambo723)
+
+### GAME
+* [MAZE](games/maze)

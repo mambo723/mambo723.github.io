@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"in","_duration":0.26666666666666666,"sample":30,"curveData":{"props":{"scale":[{"frame":0,"value":{"__type__":"cc.Vec2","x":2,"y":2},"curve":"quintIn"},{"frame":0.26666666666666666,"value":{"__type__":"cc.Vec2","x":1,"y":1}}],"opacity":[{"frame":0,"value":0},{"frame":0.26666666666666666,"value":255}]}}}
